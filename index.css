@@ -1,0 +1,66 @@
+body {
+    background: #a8dadc;
+    background-image: url("bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(1px);
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    color: #1d3557;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #1d3557;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 4px;
+    margin-left: 4px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 16px;
+}
+
+#increment-btn {
+    background: #e63946;
+}
+
+#save-btn {
+    background: #2a9d8f;
+}
+
+#save-el{
+    color: #1d3557;
+}
+
+#count-el{
+    margin-bottom: 40px;
+}
+
+#my-div{
+    margin-top: 20px;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f1faee;
+    padding: 12px;
+    border-radius: 24px;
+    border: #1d3557 solid 2px;
+}
